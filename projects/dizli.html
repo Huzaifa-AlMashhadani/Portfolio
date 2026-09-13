@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" data-page="dizli">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dizli — Huzaifa Al-Mashhadani</title>
+    <meta
+      name="description"
+      content="Dizli is a ride-hailing and delivery platform with customer and driver apps, built with Flutter, Node.js, TypeScript, PostgreSQL, and Prisma."
+    />
+    <meta name="theme-color" content="#f2efe8" />
+    <link rel="canonical" href="https://huzaifa-almashhadani.github.io/Portfolio/projects/dizli.html" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <script>
+      (function () {
+        try {
+          var l = localStorage.getItem("portfolio-lang");
+          if (l === "ar" || l === "ckb") {
+            document.documentElement.lang = l;
+            document.documentElement.dir = "rtl";
+            document.documentElement.classList.add("i18n-pending");
+            setTimeout(function () {
+              document.documentElement.classList.remove("i18n-pending");
+            }, 1500);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <noscript>
+      <style>
+        html.i18n-pending {
+          visibility: visible !important;
+        }
+      </style>
+    </noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Noto+Naskh+Arabic:wght@400;500;600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <a class="wordmark" href="../index.html" data-i18n="name">Huzaifa Al-Mashhadani</a>
+      <nav id="site-nav" data-i18n-aria="navLabel" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html#top" data-i18n="navHome">Home</a></li>
+          <li><a href="../index.html#work" data-i18n="navProjects">Projects</a></li>
+          <li><a href="../index.html#about" data-i18n="navAbout">About</a></li>
+          <li><a href="../index.html#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <div class="lang-switcher" role="group" dir="ltr" data-i18n-aria="langLabel" aria-label="Language">
+          <button type="button" lang="en" data-lang="en">EN</button>
+          <span class="lang-sep" aria-hidden="true">·</span>
+          <button type="button" lang="ar" data-lang="ar">العربية</button>
+          <span class="lang-sep" aria-hidden="true">·</span>
+          <button type="button" lang="ckb" data-lang="ckb">کوردی</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="study">
+      <p class="study-back">
+        <a href="../index.html#work" data-i18n="studyBack">Back to portfolio</a>
+      </p>
+
+      <header class="study-hero">
+        <div class="study-hero-copy">
+          <p class="eyebrow" data-i18n="dizliIndex">Project 01</p>
+          <h1 data-i18n="dizliName">Dizli</h1>
+          <p class="study-lede" data-i18n="dizliStudyLede">
+            A ride-hailing and delivery platform connecting customers with drivers
+            in Samawah, Iraq.
+          </p>
+          <p class="study-stack">Flutter · Node.js · TypeScript · PostgreSQL · Prisma</p>
+          <p class="case-actions">
+            <a class="text-link" href="https://dizli.app" rel="noopener noreferrer" data-i18n="liveProject">Live Project</a>
+          </p>
+        </div>
+        <figure class="study-hero-media">
+          <button type="button" data-gallery="dizli">
+            <img
+              src="../images/dizli/app-screen.jpg"
+              alt="Dizli customer app home: services, a ride request, and recent activity."
+              data-i18n-alt="dizliHeroAlt"
+              width="407"
+              height="900"
+            />
+          </button>
+        </figure>
+      </header>
+
+      <section class="study-block" aria-labelledby="dizli-overview">
+        <h2 id="dizli-overview" data-i18n="dizliOverview">Overview</h2>
+        <div class="study-prose">
+          <p data-i18n="dizliOverview1">
+            Dizli is a local mobility and delivery product. Customers book a ride
+            or send an errand through one app. Drivers pick up those jobs through
+            another. A Node.js API and a PostgreSQL database sit in the middle.
+          </p>
+          <p data-i18n="dizliOverview2">
+            It is built for everyday use in Samawah — taxis, deliveries, and a
+            few related services — not as a national marketplace. I work on the
+            software: the two Flutter apps, the TypeScript API, and the data model.
+          </p>
+        </div>
+      </section>
+
+      <section class="study-block" aria-labelledby="dizli-features">
+        <h2 id="dizli-features" data-i18n="dizliFeatures">Features</h2>
+        <ul class="study-list">
+          <li>
+            <strong data-i18n="dizliFeatTitle1">Customer home.</strong>
+            <span data-i18n="dizliFeatBody1">
+            Services, wallet balance, search, and recent orders on one screen.
+            </span>
+          </li>
+          <li>
+            <strong data-i18n="dizliFeatTitle2">Rides and deliveries.</strong>
+            <span data-i18n="dizliFeatBody2">
+            Request a taxi, confirm pickup and drop-off, or send a shopping list
+            to a nearby store.
+            </span>
+          </li>
+          <li>
+            <strong data-i18n="dizliFeatTitle3">Driver app.</strong>
+            <span data-i18n="dizliFeatBody3">
+            Go online, see nearby jobs, follow a map, and keep a daily summary of
+            trips and deliveries.
+            </span>
+          </li>
+          <li>
+            <strong data-i18n="dizliFeatTitle4">Chat.</strong>
+            <span data-i18n="dizliFeatBody4">Customer and driver can message on an active order.</span>
+          </li>
+          <li>
+            <strong data-i18n="dizliFeatTitle5">Wallet.</strong>
+            <span data-i18n="dizliFeatBody5">Balance, top-up, and a fare breakdown before the order is confirmed.</span>
+          </li>
+          <li>
+            <strong data-i18n="dizliFeatTitle6">Driver profile.</strong>
+            <span data-i18n="dizliFeatBody6">Ratings, trip counts, and vehicle details visible to the customer.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="study-block" aria-labelledby="dizli-screens">
+        <h2 id="dizli-screens" data-i18n="dizliScreens">Screens</h2>
+        <p class="study-note" data-i18n="dizliScreensNote">Click any image to open it full size.</p>
+        <div class="study-mosaic">
+          <button type="button" class="shot shot--tall" data-gallery="dizli">
+            <img src="../images/dizli/customer/03.jpg" alt="Dizli customer home with services and recent orders." data-i18n-alt="dizliAltCustomerHomeShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/driver/01.jpg" alt="Dizli driver home with daily summary." data-i18n-alt="dizliAltDriverHomeShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/customer/05.jpg" alt="Dizli in-app chat on an active order." data-i18n-alt="dizliAltChatShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/driver/03.jpg" alt="Dizli driver map and online toggle." data-i18n-alt="dizliAltDriverMapShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/customer/04.jpg" alt="Dizli order confirmation and fare." data-i18n-alt="dizliAltConfirmShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/driver/06.jpg" alt="Dizli driver wallet." data-i18n-alt="dizliAltDriverWalletShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot shot--wide" data-gallery="dizli">
+            <img src="../images/dizli/web.jpg" alt="Dizli public website." data-i18n-alt="dizliAltWebShort" width="1600" height="824" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/customer/01.jpg" alt="Dizli shopping list for an errand." data-i18n-alt="dizliAltErrandShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/customer/02.jpg" alt="Dizli driver profile and ratings." data-i18n-alt="dizliAltDriverProfileShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/driver/02.jpg" alt="Dizli driver account and vehicle." data-i18n-alt="dizliAltDriverAccountShort" width="647" height="1400" />
+          </button>
+          <button type="button" class="shot" data-gallery="dizli">
+            <img src="../images/dizli/app-screen.jpg" alt="Dizli customer ride request screen." data-i18n-alt="dizliAltRideShort" width="407" height="900" />
+          </button>
+        </div>
+      </section>
+
+      <section class="study-block" aria-labelledby="dizli-role">
+        <h2 id="dizli-role" data-i18n="dizliMyRole">My role</h2>
+        <div class="study-prose">
+          <p data-i18n="dizliRole1">
+            I am the software developer on Dizli. I implement the customer app,
+            the driver app, and the backend they talk to.
+          </p>
+          <p data-i18n="dizliRole2">
+            That includes screens and navigation in Flutter, REST endpoints in
+            Node.js and TypeScript, and the PostgreSQL schema through Prisma —
+            orders, users, drivers, wallet entries, and chat. I do not claim the
+            marketing site copy or growth numbers as my work.
+          </p>
+        </div>
+      </section>
+
+      <section class="study-block" aria-labelledby="dizli-tech">
+        <h2 id="dizli-tech" data-i18n="dizliTech">Technologies</h2>
+        <ul class="study-tech">
+          <li>Flutter</li>
+          <li>Node.js</li>
+          <li>TypeScript</li>
+          <li>PostgreSQL</li>
+          <li>Prisma</li>
+        </ul>
+      </section>
+
+      <section class="study-block" aria-labelledby="dizli-dev">
+        <h2 id="dizli-dev" data-i18n="dizliDev">Development</h2>
+        <div class="study-prose">
+          <p data-i18n="dizliDev1">
+            The hard part is keeping two clients on one order. A customer request
+            has to show up for a driver, survive accept/cancel, and remain
+            consistent in chat, fare, and wallet.
+          </p>
+          <p data-i18n="dizliDev2">
+            Maps and “going online” have to work on ordinary Android phones and
+            uneven networks. Both apps are Arabic-first and RTL. I kept the API
+            small and explicit — order state lives in Postgres, and the apps
+            read from that — instead of duplicating business rules in each
+            client.
+          </p>
+        </div>
+      </section>
+
+      <section class="study-cta" aria-labelledby="dizli-cta">
+        <h2 id="dizli-cta" data-i18n="dizliCta">Interested in the project?</h2>
+        <p class="case-actions">
+          <a class="text-link" href="https://dizli.app" rel="noopener noreferrer" data-i18n="visitProject">Visit Project</a>
+        </p>
+      </section>
+
+      <nav class="study-pager" data-i18n-aria="studyPager" aria-label="Project navigation">
+        <a class="study-pager-link study-pager-link--next" href="monasabate.html">
+          <span class="study-pager-label" data-i18n="nextProject">Next Project</span>
+          <span class="study-pager-name" data-i18n="monaName">Monasabate</span>
+        </a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-name" data-i18n="name">Huzaifa Al-Mashhadani</p>
+          <p class="footer-role" data-i18n="footerRole">Software Developer</p>
+        </div>
+        <nav class="footer-nav" data-i18n-aria="footerNav" aria-label="Footer">
+          <a href="../index.html#top" data-i18n="navHome">Home</a>
+          <a href="../index.html#work" data-i18n="navProjects">Projects</a>
+          <a href="../index.html#about" data-i18n="navAbout">About</a>
+          <a href="../index.html#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <ul class="footer-social">
+          <li>
+            <a href="https://github.com/Huzaifa-AlMashhadani" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/huzaifa-almashhdani-02bb6928a/"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="mailto:prhuzaifa@gmail.com" data-i18n="socialEmail">Email</a>
+          </li>
+        </ul>
+        <p class="footer-copy">© <span data-copyright-year>2026</span> <span data-i18n="name">Huzaifa Al-Mashhadani</span>. <span data-i18n="footerRights">All rights reserved.</span></p>
+      </div>
+    </footer>
+
+    <a class="back-to-top" href="#top" data-back-to-top data-i18n="backToTop">Back to Top</a>
+
+    <div class="lightbox" data-lightbox hidden>
+      <button type="button" class="lightbox-close" data-lightbox-close data-i18n="lightboxClose" data-i18n-aria="lightboxClose" aria-label="Close gallery">Close</button>
+      <button type="button" class="lightbox-nav lightbox-prev" data-lightbox-prev data-i18n-aria="lightboxPrev" aria-label="Previous image">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M10.25 3.5 5.75 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <figure class="lightbox-stage" data-lightbox-stage>
+        <img data-lightbox-image alt="" />
+        <figcaption data-lightbox-caption></figcaption>
+      </figure>
+      <button type="button" class="lightbox-nav lightbox-next" data-lightbox-next data-i18n-aria="lightboxNext" aria-label="Next image">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M5.75 3.5 10.25 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <p class="lightbox-count" data-lightbox-count aria-live="polite"></p>
+    </div>
+
+    <script src="../i18n.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>
