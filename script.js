@@ -181,6 +181,37 @@ function initAboutMotion() {
 
 initAboutMotion();
 
+function initCaseMotion() {
+  const cases = document.querySelectorAll(".case");
+  if (!cases.length) return;
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduceMotion || !("IntersectionObserver" in window)) return;
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-in");
+        io.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.16, rootMargin: "0px 0px -6% 0px" }
+  );
+
+  cases.forEach((item) => {
+    item.classList.add("js-motion");
+    const rect = item.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.9 && rect.bottom > 0) {
+      item.classList.add("is-in");
+      return;
+    }
+    io.observe(item);
+  });
+}
+
+initCaseMotion();
+
 function translate(key) {
   const i18n = window.PortfolioI18n;
   if (!i18n) return "";
