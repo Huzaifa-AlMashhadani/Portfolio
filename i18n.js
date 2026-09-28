@@ -24,7 +24,7 @@
       heroLocation: "Babylon, Iraq",
       heroRole: "Full-Stack & Mobile Developer",
       heroLead:
-        "I build production web and mobile applications — REST APIs, real-time systems, admin dashboards, and location-based services — from architecture and databases through deployment and production support.",
+        "Results-driven full-stack and mobile developer building production web and mobile apps — REST APIs, real-time systems, admin dashboards, and location-based services — from architecture through deployment and production support.",
       heroWork: "Selected work",
       heroContact: "Contact me",
       photoAlt: "Huzaifa Al-Mashhadani",
@@ -37,23 +37,45 @@
       expDizliOrg: "Dizli · Iraq",
       expDizliDates: "Jun 2026 – Present",
       expDizli1:
-        "Flutter customer and driver apps, plus REST APIs for auth, orders, rides, wallets, ratings, and admin.",
+        "Flutter customer and driver apps with auth, orders, rides, wallets, ratings, push notifications, and location services.",
       expDizli2:
-        "Real-time driver location, dispatch workflows, distance-based pricing, and PostGIS service zones.",
+        "Node.js / Express APIs on PostgreSQL, Prisma, Redis, and PostGIS for tracking, dispatch, and spatial features.",
       expDizli3:
-        "Next.js admin dashboards; Firebase Cloud Messaging; payment integrations; Linux VPS with PM2.",
+        "Next.js admin dashboards; Firebase Cloud Messaging; third-party APIs; Linux VPS with PM2, Cloudflare, and SSL.",
       expDizli4:
-        "Production database migrations, SSL and Cloudflare, iOS/Android signing, and App Store releases.",
+        "End-to-end iOS and Android builds, code signing, store releases, and production troubleshooting.",
+      expSsRole: "Full-Stack Developer",
+      expSsOrg: "Software Solutions · Iraq",
+      expSsDates: "Nov 2023 – Mar 2025",
+      expSs1:
+        "Delivered production web apps with React.js, Laravel, PHP, and MySQL alongside a cross-functional team.",
+      expSs2:
+        "Built Al Rayyan (Next.js e-commerce) and Miswak (enterprise mall shopping) with catalog, inventory, and checkout flows.",
+      expSs3:
+        "Shipped Hala Chat — a real-time messaging web app with Node.js, WebSockets, webhooks, and event-driven architecture.",
+      expSs4:
+        "Designed and maintained PostgreSQL schemas, advanced queries, migrations, and backend integrations.",
+      expFadshiRole: "Flutter Front-End Developer",
+      expFadshiOrg: "Fadshi",
+      expFadshiDates: "Apr 2022 – Jul 2023",
+      expFadshi1:
+        "Translated Figma designs into production Flutter screens for a marketplace covering new, used, and bale goods.",
+      expFadshi2:
+        "Built product discovery, order tracking, digital wallets, withdrawals, and chart-based sales analytics.",
+      expFadshi3:
+        "Collaborated on real-time buyer–support chat with WebSockets / Socket.IO and REST-backed state management.",
+      expFadshi4:
+        "Integrated maps and geolocation for courier tracking, improving accuracy with GPS filtering.",
       aboutLabel: "About Me",
       aboutTitle: "I'm Huzaifa — a full-stack and mobile developer who ships software people depend on.",
       aboutP1:
-        "I work across the full lifecycle: application architecture, database design, mobile and web clients, REST APIs, real-time features, and production troubleshooting on Linux servers.",
+        "Results-driven full-stack and mobile developer with hands-on experience shipping production web and mobile apps — REST APIs, real-time systems, admin dashboards, and location-based services — from architecture and databases through Linux server ops and production troubleshooting.",
       aboutP2:
-        "My strongest experience is transportation and operations software in Iraq — especially Dizli — where reliability on ordinary phones and uneven networks matters as much as clean code.",
+        "I've built marketplace Flutter apps, Next.js and Laravel e-commerce for Iraqi brands, real-time chat products, and — currently — Dizli, where reliability on ordinary phones and uneven networks matters as much as clean code.",
       aboutDoTitle: "What I do",
       aboutDoMobileTitle: "Mobile Development",
       aboutDoMobileBody:
-        "Cross-platform Flutter and React Native apps with maps, push notifications, and App Store / Play releases.",
+        "Cross-platform Flutter and React Native apps with BLoC/Riverpod, maps, push notifications, and App Store / Play releases.",
       aboutDoBackendTitle: "Backend & APIs",
       aboutDoBackendBody:
         "Node.js, Express, Laravel, PostgreSQL, Prisma, PostGIS, Redis, and real-time location systems.",
@@ -71,7 +93,7 @@
       aboutNowLabel: "Currently",
       aboutNowValue: "Building Dizli",
       aboutLangLabel: "Languages",
-      aboutLangValue: "English (fluent), Arabic (basic)",
+      aboutLangValue: "English (fluent), Arabic (native)",
       viewCv: "View CV",
       role: "Role",
       stack: "Stack",
@@ -254,7 +276,7 @@
       heroLocation: "بابل، العراق",
       heroRole: "مطوّر شامل وجوال",
       heroLead:
-        "أبني تطبيقات ويب وجوال للإنتاج — واجهات REST، وأنظمة فورية، ولوحات إدارة، وخدمات مرتبطة بالموقع — من الهندسة وقواعد البيانات حتى النشر ودعم الإنتاج.",
+        "مطوّر شامل وجوال ذو نتائج ملموسة يبني تطبيقات ويب وجوال للإنتاج — واجهات REST، وأنظمة فورية، ولوحات إدارة، وخدمات مرتبطة بالموقع — من الهندسة حتى النشر ودعم الإنتاج.",
       heroWork: "أعمال مختارة",
       heroContact: "تواصل معي",
       photoAlt: "حذيفة المشهداني",
@@ -267,23 +289,45 @@
       expDizliOrg: "دزلي · العراق",
       expDizliDates: "حزيران 2026 – الآن",
       expDizli1:
-        "تطبيقا Flutter للزبون والسائق، مع واجهات REST للمصادقة والطلبات والرحلات والمحافظ والتقييمات والإدارة.",
+        "تطبيقا Flutter للزبون والسائق مع المصادقة والطلبات والرحلات والمحافظ والتقييمات والإشعارات وخدمات الموقع.",
       expDizli2:
-        "موقع السائق الفوري، وتدفقات التوزيع، والتسعير حسب المسافة، ومناطق الخدمة عبر PostGIS.",
+        "واجهات Node.js / Express على PostgreSQL وPrisma وRedis وPostGIS للتتبع والتوزيع والميزات المكانية.",
       expDizli3:
-        "لوحات إدارة Next.js؛ وإشعارات Firebase؛ وتكاملات الدفع؛ وخوادم Linux مع PM2.",
+        "لوحات إدارة Next.js؛ وإشعارات Firebase؛ وواجهات خارجية؛ وخوادم Linux مع PM2 وCloudflare وSSL.",
       expDizli4:
-        "ترحيل قواعد بيانات الإنتاج، وSSL وCloudflare، وتوقيع iOS/Android، وإصدارات App Store.",
+        "بناء iOS وAndroid من البداية للنهاية، والتوقيع، وإصدارات المتاجر، وتشخيص الإنتاج.",
+      expSsRole: "مطوّر شامل",
+      expSsOrg: "Software Solutions · العراق",
+      expSsDates: "تشرين الثاني 2023 – آذار 2025",
+      expSs1:
+        "تسليم تطبيقات ويب إنتاجية بـ React.js وLaravel وPHP وMySQL مع فريق متعدد التخصصات.",
+      expSs2:
+        "بناء الريان (تجارة إلكترونية بـ Next.js) ومسواك (تسوّق لمول عراقي) مع الكتالوج والمخزون وعمليات الشراء.",
+      expSs3:
+        "إطلاق Hala Chat — تطبيق مراسلة فوري بـ Node.js وWebSockets وwebhooks وهندسة قائمة على الأحداث.",
+      expSs4:
+        "تصميم وصيانة مخططات PostgreSQL والاستعلامات المتقدمة والترحيلات وتكاملات الواجهة الخلفية.",
+      expFadshiRole: "مطوّر واجهات Flutter",
+      expFadshiOrg: "فضشي",
+      expFadshiDates: "نيسان 2022 – تموز 2023",
+      expFadshi1:
+        "تحويل تصاميم Figma إلى شاشات Flutter إنتاجية لسوق يغطي البضائع الجديدة والمستعملة والبالة.",
+      expFadshi2:
+        "بناء اكتشاف المنتجات وتتبع الطلبات والمحافظ الرقمية والسحوبات ولوحات تحليلات المبيعات بالرسوم.",
+      expFadshi3:
+        "المساهمة في دردشة فورية بين المشتري والدعم عبر WebSockets / Socket.IO وإدارة حالة مربوطة بـ REST.",
+      expFadshi4:
+        "دمج الخرائط والموقع لتتبع المندوبين وتحسين الدقة عبر تصفية GPS.",
       aboutLabel: "نبذة عني",
       aboutTitle: "أنا حذيفة — مطوّر شامل وجوال يسلّم برمجيات يعتمد عليها الناس.",
       aboutP1:
-        "أعمل عبر دورة الحياة كاملة: هندسة التطبيق، وتصميم قواعد البيانات، وعملاء الجوال والويب، وواجهات REST، والميزات الفورية، وتشخيص الإنتاج على خوادم Linux.",
+        "مطوّر شامل وجوال ذو خبرة عملية في تسليم تطبيقات ويب وجوال للإنتاج — واجهات REST وأنظمة فورية ولوحات إدارة وخدمات مرتبطة بالموقع — من الهندسة وقواعد البيانات حتى تشغيل خوادم Linux وتشخيص الإنتاج.",
       aboutP2:
-        "أقوى خبرتي في برمجيات النقل والتشغيل في العراق — خاصة دزلي — حيث الاعتمادية على هواتف عادية وشبكات غير مستقرة أهمّ بقدر نظافة الكود.",
+        "بنيت تطبيقات سوق بـ Flutter، وتجارة إلكترونية بـ Next.js وLaravel لعلامات عراقية، ومنتجات دردشة فورية، وحاليًا دزلي — حيث الاعتمادية على هواتف عادية وشبكات غير مستقرة أهمّ بقدر نظافة الكود.",
       aboutDoTitle: "ما أعمل عليه",
       aboutDoMobileTitle: "تطوير الجوال",
       aboutDoMobileBody:
-        "تطبيقات Flutter وReact Native متعددة المنصات مع الخرائط والإشعارات وإصدارات App Store وPlay.",
+        "تطبيقات Flutter وReact Native متعددة المنصات مع BLoC/Riverpod والخرائط والإشعارات وإصدارات App Store وPlay.",
       aboutDoBackendTitle: "الجهة الخلفية وواجهات API",
       aboutDoBackendBody:
         "Node.js وExpress وLaravel وPostgreSQL وPrisma وPostGIS وRedis وأنظمة الموقع الفورية.",
@@ -301,7 +345,7 @@
       aboutNowLabel: "حاليًا",
       aboutNowValue: "أبني دزلي",
       aboutLangLabel: "اللغات",
-      aboutLangValue: "الإنجليزية (طلاقة)، العربية (أساسية)",
+      aboutLangValue: "الإنجليزية (طلاقة)، العربية (أمّ)",
       viewCv: "عرض السيرة",
       role: "الدور",
       stack: "التقنيات",
@@ -480,7 +524,7 @@
       heroLocation: "بابل، عێراق",
       heroRole: "گەشەپێدەری تەواو و مۆبایل",
       heroLead:
-        "ئەپی وێب و مۆبایلی بەرهەمهێنان دروست دەکەم — REST API، سیستەمی کاتی ڕاستەقینە، داشبۆردی بەڕێوەبردن، و خزمەتگوزاریی شوێن — لە تەلارسازی و بنکەدراوەوە تا بڵاوکردنەوە و پشتگیری بەرهەمهێنان.",
+        "گەشەپێدەری تەواو و مۆبایلی ئەنجامدار کە ئەپی وێب و مۆبایلی بەرهەمهێنان دروست دەکات — REST API، سیستەمی کاتی ڕاستەقینە، داشبۆردی بەڕێوەبردن، و خزمەتگوزاریی شوێن — لە تەلارسازییەوە تا بڵاوکردنەوە و پشتگیری بەرهەمهێنان.",
       heroWork: "کارە هەڵبژێردراوەکان",
       heroContact: "پەیوەندیم پێوە بکە",
       photoAlt: "حوزەیفە المەشهەدانی",
@@ -493,23 +537,45 @@
       expDizliOrg: "دزلی · عێراق",
       expDizliDates: "حوزەیرانی 2026 – ئێستا",
       expDizli1:
-        "ئەپی Flutter بۆ کڕیار و شۆفێر، لەگەڵ REST API بۆ ڕێگەپێدان، داواکاری، گەشت، جزدان، هەڵسەنگاندن، و بەڕێوەبردن.",
+        "ئەپی Flutter بۆ کڕیار و شۆفێر لەگەڵ ڕێگەپێدان، داواکاری، گەشت، جزدان، هەڵسەنگاندن، ئاگادارکردنەوە، و خزمەتگوزاری شوێن.",
       expDizli2:
-        "شوێنی شۆفێری کاتی ڕاستەقینە، ڕێڕەوی دابەشکردن، نرخ بەپێی مەودا، و ناوچەی خزمەتگوزاری PostGIS.",
+        "APIـی Node.js / Express لەسەر PostgreSQL و Prisma و Redis و PostGIS بۆ شوێنپێهەڵگرتن، دابەشکردن، و تایبەتمەندی شوێنی.",
       expDizli3:
-        "داشبۆردی Next.js؛ ئاگادارکردنەوەی Firebase؛ یەکخستنی پارەدان؛ Linux VPS لەگەڵ PM2.",
+        "داشبۆردی Next.js؛ ئاگادارکردنەوەی Firebase؛ APIـی دەرەکی؛ Linux VPS لەگەڵ PM2 و Cloudflare و SSL.",
       expDizli4:
-        "کۆچکردنی بنکەدراوەی بەرهەمهێنان، SSL و Cloudflare، واژۆکردنی iOS/Android، و بڵاوکردنەوەی App Store.",
+        "دروستکردنی iOS و Android لە سەرەتا تا کۆتایی، واژۆکردن، بڵاوکردنەوەی فرۆشگا، و چارەسەرکردنی بەرهەمهێنان.",
+      expSsRole: "گەشەپێدەری تەواو",
+      expSsOrg: "Software Solutions · عێراق",
+      expSsDates: "تشرینی دووەمی 2023 – ئازاری 2025",
+      expSs1:
+        "گەیاندنی ئەپی وێبی بەرهەمهێنان بە React.js و Laravel و PHP و MySQL لەگەڵ تیمێکی فرەتایبەتمەندی.",
+      expSs2:
+        "دروستکردنی الریان (بازرگانی ئەلیکترۆنی Next.js) و مسواک (بازاڕی مۆڵ) لەگەڵ کاتالۆگ، کۆگا، و ڕێڕەوی کڕین.",
+      expSs3:
+        "بڵاوکردنەوەی Hala Chat — ئەپی نامەناردنی کاتی ڕاستەقینە بە Node.js و WebSockets و webhooks و تەلارسازی ڕووداومحور.",
+      expSs4:
+        "دیزاین و چاودێریکردنی schemaـی PostgreSQL، پرسیاری پێشکەوتوو، کۆچکردن، و یەکخستنی پشتەوە.",
+      expFadshiRole: "گەشەپێدەری ڕووکاری Flutter",
+      expFadshiOrg: "فەدشی",
+      expFadshiDates: "نیسانی 2022 – تەممووزی 2023",
+      expFadshi1:
+        "گۆڕینی دیزاینی Figma بۆ شاشەی Flutterـی بەرهەمهێنان بۆ بازاڕێک کە کاڵای نوێ و بەکارهاتوو و بالە دەگرێتەوە.",
+      expFadshi2:
+        "دروستکردنی دۆزینەوەی بەرهەم، شوێنپێهەڵگرتنی داواکاری، جزدان، کشانەوە، و شیکاری فرۆشتن بە هێڵکاری.",
+      expFadshi3:
+        "هاوکاری لەسەر چاتی کاتی ڕاستەقینەی کڕیار–پشتگیری بە WebSockets / Socket.IO و بەڕێوەبردنی دۆخی پەیوەست بە REST.",
+      expFadshi4:
+        "یەکخستنی نەخشە و شوێن بۆ شوێنپێهەڵگرتنی کۆریەر و باشترکردنی وردی بە فلتەری GPS.",
       aboutLabel: "دەربارەی من",
       aboutTitle: "من حوزەیفەم — گەشەپێدەری تەواو و مۆبایل کە نەرمەکاڵا دەنێرم کە خەڵک پشتی پێ دەبەستن.",
       aboutP1:
-        "لەسەر هەموو خولەکە کاردەکەم: تەلارسازی ئەپ، دیزاینی بنکەدراوە، کڵایەنتی مۆبایل و وێب، REST API، تایبەتمەندی کاتی ڕاستەقینە، و چارەسەرکردنی کێشەی بەرهەمهێنان لەسەر سێرڤەری Linux.",
+        "گەشەپێدەری تەواو و مۆبایل بە ئەزموونی کرداری لە گەیاندنی ئەپی وێب و مۆبایلی بەرهەمهێنان — REST API، سیستەمی کاتی ڕاستەقینە، داشبۆردی بەڕێوەبردن، و خزمەتگوزاری شوێن — لە تەلارسازی و بنکەدراوەوە تا کارگێڕی سێرڤەری Linux و چارەسەرکردنی بەرهەمهێنان.",
       aboutP2:
-        "بەهێزترین ئەزموونم لە نەرمەکاڵای گواستنەوە و کارگێڕییە لە عێراق — بەتایبەتی دزلی — کە متمانەپێکراوی لەسەر مۆبایلی ئاسایی و تۆڕی ناسەقامگیر گرنگە وەک کۆدی پاک.",
+        "ئەپی بازاڕی Flutter، بازرگانی ئەلیکترۆنی Next.js و Laravel بۆ براندە عێراقییەکان، بەرهەمی چاتی کاتی ڕاستەقینە، و ئێستا دزلی دروست کردووم — کە متمانەپێکراوی لەسەر مۆبایلی ئاسایی و تۆڕی ناسەقامگیر گرنگە وەک کۆدی پاک.",
       aboutDoTitle: "ئەوەی دەیکەم",
       aboutDoMobileTitle: "گەشەپێدانی مۆبایل",
       aboutDoMobileBody:
-        "ئەپی Flutter و React Nativeـی فرەسەکۆ لەگەڵ نەخشە، ئاگادارکردنەوە، و بڵاوکردنەوەی App Store / Play.",
+        "ئەپی Flutter و React Nativeـی فرەسەکۆ لەگەڵ BLoC/Riverpod، نەخشە، ئاگادارکردنەوە، و بڵاوکردنەوەی App Store / Play.",
       aboutDoBackendTitle: "پشتەوە و API",
       aboutDoBackendBody:
         "Node.js، Express، Laravel، PostgreSQL، Prisma، PostGIS، Redis، و سیستەمی شوێنی کاتی ڕاستەقینە.",
@@ -527,7 +593,7 @@
       aboutNowLabel: "ئێستا",
       aboutNowValue: "دزلی دروست دەکەم",
       aboutLangLabel: "زمانەکان",
-      aboutLangValue: "ئینگلیزی (ڕەوان)، عەرەبی (بنەڕەتی)",
+      aboutLangValue: "ئینگلیزی (ڕەوان)، عەرەبی (زمانی دایک)",
       viewCv: "سی ڤی ببینە",
       role: "ڕۆڵ",
       stack: "تەکنەلۆژیا",
